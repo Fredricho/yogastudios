@@ -1,10 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Roboto:ital@1&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
-body{
-    color: green;
+
+body {
+    color: rgba(29, 22, 26, 1);
     font-family: roboto, sans-serif;
+}
+
+/* Headings and log */
+
+h1,
+h2 {
+    font-family: Alegreya, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(14, 13, 14, 1);
+}
+#logo{
+    text-align: center;
+    font-size: 300%;
 }
