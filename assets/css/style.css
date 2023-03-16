@@ -8,6 +8,7 @@
 
 body {
     color: rgba(29, 22, 26, 1);
+    font-weight: 300px;
     font-family: roboto, sans-serif;
 }
 
@@ -19,8 +20,44 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgba(14, 13, 14, 1);
+
 }
-#logo{
+
+#logo {
     text-align: center;
     font-size: 300%;
+
+}
+
+/*Menu and logo*/
+#menu {
+    font-size: 115%;
+    letter-spacing: 2px;
+}
+
+#menu,
+#logo {
+    line-height: 40px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+#menu, #logo{
+    line-height: 60px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: red
+}
+
+.currently {
+    border: 1px solid grey;
+
 }
